@@ -44,6 +44,13 @@
 }
     </script>
 
+    <script type="text/javascript" src="public/ghost-sdk.js?v=ecc2263564"></script>
+<script type="text/javascript">
+ghost.init({
+	clientId: "ghost-frontend",
+	clientSecret: "9b2a5ecdac7d"
+});
+</script>
     <meta name="generator" content="Ghost 1.18">
     <link rel="alternate" type="application/rss+xml" title="bejuryu's journal" href="rss/index.html">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -53,10 +60,11 @@ h1, h2, h3, h4, h5, h6,
 .main-nav a,
 .subscribe-button,
 .page-title,
-.post-meta,
 .read-next-story .post:before,
+.post-full-content,
 .pagination,
 .site-footer,
+[class^="post-"],
 [class^="icon-"]:before, [class*=" icon-"]:before {
     font-family:"Lato", sans-serif;
 }
